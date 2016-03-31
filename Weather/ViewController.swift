@@ -14,7 +14,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet weak var city: UILabel!
     @IBOutlet weak var temperature: UILabel!
     @IBOutlet weak var forecast: UITableView!
-    let images: [UIImage] = [UIImage(named: "中雨")!]
+//    let images: [UIImage] = [UIImage(named: "中雨")!]
     
     let urlQuest = NSURLRequest(URL: NSURL(string: "http://apis.haoservice.com/weather?cityname=%E4%B8%8A%E6%B5%B7&key=48ecd916ae274022ab58ce7743a44ed9")!)
     
